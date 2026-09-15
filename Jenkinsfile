@@ -8,7 +8,13 @@ pipeline {
                 echo 'Hello World'
             }
         }
-
+        
+        stage('Welcom') {
+            steps {
+                echo 'WELCOM UADB'
+            }
+        }
+ 
         stage('UADB') {
             steps {
                 echo 'Universite UADB'
